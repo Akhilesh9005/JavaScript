@@ -38,3 +38,32 @@ const  myFunction = function(){
 }
  
 console.log(typeof scorevalue);
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive types data me stack memory use hoti hai), Heap (non-primitive types me heap memory ka use hota hai)
+
+let myYoutubename = "akhilesh@9005"
+
+let anothername = myYoutubename
+anothername = "akhil"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "Akhilesh9005@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
